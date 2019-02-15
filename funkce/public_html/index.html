@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="cs-cz">
+    <head>
+        <title>FUNKCE JS</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script type="text/javascript">
+            var promenna_s_funkci = function(jmeno){
+                jmeno=jmeno.toString().toUpperCase();
+                document.write("TOHLE JE DOST DIVNY "+jmeno);
+            };
+            function funkce(funkce2, jmeno){
+                document.write("Jsem funkce, ktera vola promenou, ktera je vlastne funkce <br/>");
+                document.write("Davam ji parametr \"adam\" at je sranda<br/>");
+                funkce2(jmeno);
+            }
+            funkce(promenna_s_funkci,"adam");
+        </script>
+    </body>
+</html>

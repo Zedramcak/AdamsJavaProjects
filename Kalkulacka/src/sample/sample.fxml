@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="216.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="cislo1TextField" layoutX="36.0" layoutY="133.0" />
+      <TextField fx:id="cislo2TextField" layoutX="281.0" layoutY="133.0" />
+      <ComboBox fx:id="operaceComboBox" layoutX="216.0" layoutY="133.0" prefHeight="25.0" prefWidth="46.0" />
+      <Label layoutX="441.0" layoutY="137.0" text="=" />
+      <Label fx:id="vysledekLabel" layoutX="526.0" layoutY="137.0" text="0" />
+      <Button fx:id="vypocitejButton" layoutX="201.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleVypocitejButtonAction" prefHeight="92.0" prefWidth="199.0" text="VYPOCITEJ" />
+   </children>
+</AnchorPane>

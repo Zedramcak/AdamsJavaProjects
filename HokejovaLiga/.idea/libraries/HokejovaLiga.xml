@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="HokejovaLiga">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/HokejovaLiga.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
